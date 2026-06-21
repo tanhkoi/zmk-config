@@ -1,3 +1,4 @@
 
 .zmk/
 boards/shields/custom_display/
+firmware/
