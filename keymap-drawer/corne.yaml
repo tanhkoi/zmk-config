@@ -1,0 +1,332 @@
+layout: {zmk_keyboard: corne}
+layers:
+  DEF: [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, RCTRL, A, S, D, F, G, H, J, K, L, '''', ESC, LEFT SHIFT, Z, X, C, V, B, N, M, ',', ., /, RIGHT SHIFT, LEFT META,
+    NAV, SPACE, ENTER, N&S, LEFT ALT]
+  NAV:
+  - TAB
+  - PG DN
+  - PG UP
+  - INS
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BSPC
+  - {t: MNA, h: toggle}
+  - {t: LEFT GUI, h: sticky}
+  - {t: LEFT ALT, h: sticky}
+  - {t: LEFT SHIFT, h: sticky}
+  - {t: LCTRL, h: sticky}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LEFT
+  - DOWN
+  - RIGHT
+  - {t: ▽, type: trans}
+  - {t: GA1, h: toggle}
+  - '&bootloader'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - DEL
+  - HOME
+  - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  N&S:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - {t: ▽, type: trans}
+  - _
+  - '&'
+  - '*'
+  - '-'
+  - +
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  - '4'
+  - '5'
+  - '6'
+  - {t: ▽, type: trans}
+  - '='
+  - $
+  - '%'
+  - ^
+  - \
+  - '`'
+  - {t: ▽, type: trans}
+  - {t: Gui+LEFT SHIFT, h: sticky}
+  - '1'
+  - '2'
+  - '3'
+  - {t: ▽, type: trans}
+  - '-'
+  - '!'
+  - '@'
+  - '#'
+  - '|'
+  - '~'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  FUN:
+  - F18
+  - F15
+  - F7
+  - F8
+  - F9
+  - F12
+  - {t: BT, h: '0'}
+  - VOLUME UP
+  - MUTE
+  - VOL DN
+  - BT CLR
+  - '&sys_reset'
+  - F17
+  - F14
+  - F4
+  - F5
+  - F6
+  - F11
+  - {t: BT, h: '1'}
+  - PREVIOUS
+  - PLAY PAUSE
+  - NEXT
+  - OUT TOG
+  - '&bootloader'
+  - F16
+  - F13
+  - F1
+  - F2
+  - F3
+  - F10
+  - {t: BT, h: '2'}
+  - RGB EFR
+  - RGB TOG
+  - RGB EFF
+  - OUT USB
+  - OUT BLE
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - '&bootloader'
+  - {type: held}
+  - {t: ▽, type: trans}
+  MNA:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&msc SCRL_UP'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mmv MOVE_UP'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: MNA, h: toggle}
+  - {t: ▽, type: trans}
+  - '&msc SCRL_LEFT'
+  - '&msc SCRL_DOWN'
+  - '&msc SCRL_RIGHT'
+  - '&mkp MB3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mmv MOVE_LEFT'
+  - '&mmv MOVE_DOWN'
+  - '&mmv MOVE_RIGHT'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB4'
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB5'
+  - {t: ▽, type: trans}
+  GA1:
+  - ESCAPE
+  - T
+  - Q
+  - W
+  - E
+  - R
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - TAB
+  - LEFT SHIFT
+  - A
+  - S
+  - D
+  - F
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - I
+  - LCTRL
+  - Z
+  - X
+  - C
+  - V
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&msc SCRL_DOWN'
+  - GA2
+  - SPACE
+  - {t: GA1, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  GA2:
+  - {t: ▽, type: trans}
+  - '6'
+  - '7'
+  - {t: ▽, type: trans}
+  - '8'
+  - '9'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+combos:
+- p: [32, 33]
+  k: ;
+  l: [DEF]
+- p: [24, 35]
+  k: CAPSLOCK
+  l: [DEF]
+- p: [16, 15]
+  k: (
+  l: [DEF]
+- p: [19, 20]
+  k: )
+  l: [DEF]
+- p: [3, 4]
+  k: '['
+  l: [DEF]
+- p: [8, 7]
+  k: ']'
+  l: [DEF]
+- p: [20, 21]
+  k: ':'
+  l: [DEF]
+- p: [15, 14]
+  k: '`'
+  l: [DEF]
+- p: [27, 28]
+  k: '{'
+  l: [DEF]
+- p: [31, 32]
+  k: '}'
+  l: [DEF]
+- p: [2, 3]
+  k: <
+  l: [DEF]
+- p: [8, 9]
+  k: '>'
+  l: [DEF]
+- p: [28, 31]
+  k: '-'
+  l: [DEF]
+- p: [4, 7]
+  k: +
+  l: [DEF]
+- p: [16, 19]
+  k: '='
+  l: [DEF]
+- p: [27, 26]
+  k: '|'
+  l: [DEF]
+- p: [3, 8]
+  k: '*'
+  l: [DEF]
+- p: [15, 20]
+  k: $
+  l: [DEF]
+- p: [27, 32]
+  k: '!'
+  l: [DEF]
+- p: [17, 18]
+  k: '&'
+  l: [DEF]
+- p: [29, 30]
+  k: _
+  l: [DEF]
+- p: [21, 22]
+  k: \
+  l: [DEF]
+- p: [14, 13]
+  k: '~'
+  l: [DEF]
