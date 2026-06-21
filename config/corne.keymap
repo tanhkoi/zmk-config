@@ -3,15 +3,15 @@
  *
  * SPDX-License-Identifier: MIT
  */
+
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1000
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 50
 
+#include <dt-bindings/led/led.h>
+#include <dt-bindings/zmk/reset.h>
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
-#include <dt-bindings/zmk/rgb.h>
-#include <dt-bindings/led/led.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/reset.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/pointing.h>
 
@@ -138,7 +138,7 @@
 &kp TAB     &kp Q  &kp W  &kp E               &kp R  &kp T        &kp Y      &kp U  &kp I           &kp O    &kp P     &kp BSPC
 &kp LSHIFT  &kp A  &kp S  &kp D               &kp F  &kp G        &kp H      &kp J  &kp K           &kp L    &kp SEMI  &kp SQT
 &kp LCTRL   &kp Z  &kp X  &kp C               &kp V  &kp B        &kp N      &kp M  &kp COMMA       &kp DOT  &kp FSLH  &kp LWIN
-                          &esc_med MEDIA ESC  &mo 2  &kp SPACE    &kp ENTER  &mo 3  &del_num 1 DEL
+                          &esc_med MEDIA ESC  &mo 3  &kp SPACE    &kp ENTER  &mo 2  &del_num 1 DEL
             >;
 
             label = "BASE";
