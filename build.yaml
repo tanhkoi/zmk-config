@@ -21,8 +21,10 @@
 include:
   - board: nice_nano_v2
     shield: corne_left nice_oled
+    snippet: rgb-config studio-rpc-usb-uart
   - board: nice_nano_v2
     shield: corne_right nice_oled
+    snippet: rgb-config studio-rpc-usb-uart
   - board: nice_nano_v2
     shield: settings_reset
     artifact-name: nice_settings_reset
