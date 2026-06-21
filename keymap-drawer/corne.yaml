@@ -38,10 +38,10 @@ layers:
   - /
   - LWIN
   - {t: ESC, h: MEDIA}
-  - SYM
+  - NUM
   - SPACE
   - ENTER
-  - NUM
+  - SYM
   - {t: DEL, h: NAV}
   NAV:
   - {t: ▽, type: trans}
@@ -124,10 +124,10 @@ layers:
   - '?'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   NUM:
   - {t: ▽, type: trans}
@@ -167,10 +167,10 @@ layers:
   - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - RET
-  - {t: '0', type: held}
+  - '0'
   - .
   MOUSE:
   - {t: MOUSE, h: toggle}
