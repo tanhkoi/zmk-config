@@ -4,6 +4,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    - name: mctechnology17
+      url-base: https://github.com/mctechnology17
     # - name: englmaxi
       # url-base: https://github.com/englmaxi
     # Additional modules containing boards/shields/custom code can be listed here as well
@@ -16,5 +18,8 @@ manifest:
     # - name: zmk-dongle-display
       # remote: englmaxi
       # revision: v0.3
+    - name: zmk-nice-oled
+      remote: mctechnology17
+      revision: main
   self:
     path: config
