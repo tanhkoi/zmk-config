@@ -232,8 +232,8 @@ layers:
   - OUT USB
   - OUT BLE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RGB BRD
+  - RGB BRI
   - PREV
   - PP
   - NEXT
