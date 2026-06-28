@@ -243,8 +243,8 @@ layers:
   - '&bootloader'
   - BT CLR
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RGB HUD
+  - RGB HUI
   - RGB EFF
   - {t: ▽, type: trans}
   - BRI DN
