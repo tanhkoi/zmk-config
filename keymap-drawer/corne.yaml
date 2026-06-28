@@ -245,7 +245,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RGB EFF
   - {t: ▽, type: trans}
   - BRI DN
   - BRI UP
