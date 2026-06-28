@@ -4,9 +4,6 @@
  * SPDX-License-Identifier: MIT
  */
 
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 1000
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 50
-
 #include <dt-bindings/led/led.h>
 #include <dt-bindings/zmk/reset.h>
 #include <behaviors.dtsi>
@@ -36,8 +33,8 @@
 
 /* ── Mouse speed tuning ───────────────────────────────────── */
 
-#define MV_SPD 800   /* cursor move speed (units/s) */
-#define SC_SPD 15    /* scroll speed                */
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 800  /* cursor move speed (units/s) */
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 80   /* scroll speed                */
 
 / {
     /*
@@ -45,10 +42,6 @@
      */
 
     behaviors {
-        /* Standard tap-hold for thumb keys */
-        /* Layer tap-hold for thumb cluster */
-        /* Tap = Escape, Hold = MEDIA layer */
-        /* Tap = Delete, Hold = NUM layer */
     };
 
     /*
