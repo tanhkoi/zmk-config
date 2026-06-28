@@ -42,7 +42,7 @@ layers:
   - SPACE
   - ENTER
   - SYM
-  - {t: DEL, h: NAV}
+  - {t: RIGHT ALT, h: NAV}
   NAV:
   - {t: ▽, type: trans}
   - PG UP
