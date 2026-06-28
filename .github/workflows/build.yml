@@ -1,5 +1,13 @@
 name: Build ZMK firmware
-on: [push, pull_request, workflow_dispatch]
+on:
+  workflow_dispatch:  # can be triggered manually
+  push:               # automatically run on changes to following paths
+    paths:
+      - "config/*.conf"
+      - "config/*.keymap"
+      - "config/*.yml"
+      - "snippets/rgb-config/*.conf"
+      - "snippets/rgb-config/*.yml"
 
 jobs:
   build:
