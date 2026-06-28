@@ -46,47 +46,9 @@
 
     behaviors {
         /* Standard tap-hold for thumb keys */
-
-        hm: homerow_mod {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            tapping-term-ms = <TAPPING_TERM>;
-            quick-tap-ms = <QUICK_TAP>;
-            flavor = "balanced";
-            bindings = <&kp>, <&kp>;
-        };
-
         /* Layer tap-hold for thumb cluster */
-
-        lt_th: layer_tap_hold {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            tapping-term-ms = <TAPPING_TERM>;
-            quick-tap-ms = <QUICK_TAP>;
-            flavor = "balanced";
-            bindings = <&mo>, <&kp>;
-        };
-
         /* Tap = Escape, Hold = MEDIA layer */
-
-        esc_med: esc_media {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            tapping-term-ms = <TAPPING_TERM>;
-            flavor = "tap-preferred";
-            bindings = <&mo>, <&kp>;
-        };
-
         /* Tap = Delete, Hold = NUM layer */
-
-        del_num: del_num {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            tapping-term-ms = <TAPPING_TERM>;
-            quick-tap-ms = <QUICK_TAP>;
-            flavor = "balanced";
-            bindings = <&mo>, <&kp>;
-        };
     };
 
     /*
@@ -136,10 +98,10 @@
 
         base_layer {
             bindings = <
-&kp TAB     &kp Q  &kp W  &kp E               &kp R  &kp T        &kp Y      &kp U  &kp I           &kp O    &kp P     &kp BSPC
-&kp LSHIFT  &kp A  &kp S  &kp D               &kp F  &kp G        &kp H      &kp J  &kp K           &kp L    &kp SEMI  &kp SQT
-&kp LCTRL   &kp Z  &kp X  &kp C               &kp V  &kp B        &kp N      &kp M  &kp COMMA       &kp DOT  &kp FSLH  &kp LWIN
-                          &esc_med MEDIA ESC  &mo 3  &kp SPACE    &kp ENTER  &mo 2  &del_num 1 DEL
+&kp TAB     &kp Q  &kp W  &kp E      &kp R  &kp T        &kp Y      &kp U  &kp I            &kp O    &kp P     &kp BSPC
+&kp LSHIFT  &kp A  &kp S  &kp D      &kp F  &kp G        &kp H      &kp J  &kp K            &kp L    &kp SEMI  &kp SQT
+&kp LCTRL   &kp Z  &kp X  &kp C      &kp V  &kp B        &kp N      &kp M  &kp COMMA        &kp DOT  &kp FSLH  &kp LWIN
+                          &lt 5 ESC  &mo 3  &kp SPACE    &kp ENTER  &mo 2  &lt 1 RIGHT_ALT
             >;
 
             label = "BASE";
