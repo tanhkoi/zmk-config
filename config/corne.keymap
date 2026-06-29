@@ -87,10 +87,10 @@
 
         base_layer {
             bindings = <
-&kp TAB     &kp Q  &kp D  &kp R      &kp W  &kp B        &kp J      &kp F  &kp U            &kp P    &kp SEMICOLON  &kp BSPC
-&kp LSHIFT  &kp A  &kp S  &kp H      &kp T  &kp G        &kp Y      &kp N  &kp E            &kp O    &kp I          &kp SQT
-&kp LCTRL   &kp Z  &kp X  &kp M      &kp C  &kp V        &kp K      &kp L  &kp COMMA        &kp DOT  &kp FSLH       &kp LWIN
-                          &lt 5 ESC  &mo 3  &kp SPACE    &kp ENTER  &mo 2  &lt 1 RIGHT_ALT
+&kp TAB     &mt LEFT_ALT Q  &kp D  &kp R      &kp W  &kp B        &kp J      &kp F  &kp U      &kp P    &kp SEMICOLON  &kp BSPC
+&kp LSHIFT  &kp A           &kp S  &kp H      &kp T  &kp G        &kp Y      &kp N  &kp E      &kp O    &kp I          &kp SQT
+&kp LCTRL   &kp Z           &kp X  &kp M      &kp C  &kp V        &kp K      &kp L  &kp COMMA  &kp DOT  &kp FSLH       &kp LWIN
+                                   &lt 5 ESC  &mo 3  &kp SPACE    &kp ENTER  &mo 2  &mo 1
             >;
 
             label = "BASE";
@@ -154,10 +154,10 @@
         qwerty {
             label = "QWERTY";
             bindings = <
-&kp TAB     &kp Q  &kp W  &kp E      &kp R  &kp T        &kp Y      &kp U  &kp I            &kp O    &kp P     &kp BSPC
-&kp LSHIFT  &kp A  &kp S  &kp D      &kp F  &kp G        &kp H      &kp J  &kp K            &kp L    &kp SEMI  &kp SQT
-&kp LCTRL   &kp Z  &kp X  &kp C      &kp V  &kp B        &kp N      &kp M  &kp COMMA        &kp DOT  &kp FSLH  &kp LWIN
-                          &lt 5 ESC  &mo 3  &kp SPACE    &kp ENTER  &mo 2  &lt 1 RIGHT_ALT
+&kp TAB     &kp Q  &kp W  &kp E      &kp R  &kp T        &kp Y      &kp U  &kp I      &kp O    &kp P     &kp BSPC
+&kp LSHIFT  &kp A  &kp S  &kp D      &kp F  &kp G        &kp H      &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LCTRL   &kp Z  &kp X  &kp C      &kp V  &kp B        &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp LWIN
+                          &lt 5 ESC  &mo 3  &kp SPACE    &kp ENTER  &mo 2  &tog 6
             >;
         };
     };
