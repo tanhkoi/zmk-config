@@ -3,36 +3,36 @@ layers:
   BASE:
   - TAB
   - Q
-  - W
-  - E
+  - D
   - R
-  - T
-  - Y
+  - W
+  - B
+  - J
+  - F
   - U
-  - I
-  - O
   - P
+  - ;
   - BSPC
   - LSHIFT
   - A
   - S
-  - D
-  - F
-  - G
   - H
-  - J
-  - K
-  - L
-  - ;
+  - T
+  - G
+  - Y
+  - N
+  - E
+  - O
+  - I
   - ''''
   - LCTRL
   - Z
   - X
+  - M
   - C
   - V
-  - B
-  - N
-  - M
+  - K
+  - L
   - ','
   - .
   - /
@@ -99,7 +99,7 @@ layers:
   - (
   - )
   - '|'
-  - {t: ▽, type: trans}
+  - {t: QWERTY, h: toggle}
   - '`'
   - '~'
   - '{'
@@ -111,7 +111,7 @@ layers:
   - ']'
   - ':'
   - '"'
-  - {t: ▽, type: trans}
+  - {t: BASE, h: toggle}
   - <
   - '>'
   - (
@@ -258,6 +258,49 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  QWERTY:
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - BSPC
+  - LSHIFT
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - LCTRL
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - LWIN
+  - {t: ESC, h: MEDIA}
+  - NUM
+  - SPACE
+  - ENTER
+  - SYM
+  - {t: RIGHT ALT, h: NAV}
 combos:
 - p: [16, 19]
   k: '&caps_word'
