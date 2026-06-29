@@ -2,7 +2,7 @@ layout: {zmk_keyboard: corne}
 layers:
   BASE:
   - TAB
-  - Q
+  - {t: Q, h: LEFT ALT}
   - D
   - R
   - W
@@ -42,7 +42,7 @@ layers:
   - SPACE
   - ENTER
   - SYM
-  - {t: RIGHT ALT, h: NAV}
+  - NAV
   NAV:
   - {t: ▽, type: trans}
   - PG UP
@@ -300,7 +300,7 @@ layers:
   - SPACE
   - ENTER
   - SYM
-  - {t: RIGHT ALT, h: NAV}
+  - {t: QWERTY, h: toggle}
 combos:
 - p: [16, 19]
   k: '&caps_word'
