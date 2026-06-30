@@ -1,50 +1,9 @@
 layout: {zmk_keyboard: corne}
 layers:
-  BASE:
-  - TAB
-  - {t: Q, h: LEFT ALT}
-  - D
-  - R
-  - W
-  - B
-  - J
-  - F
-  - U
-  - P
-  - ;
-  - BSPC
-  - LSHIFT
-  - A
-  - S
-  - H
-  - T
-  - G
-  - Y
-  - N
-  - E
-  - O
-  - I
-  - ''''
-  - LCTRL
-  - Z
-  - X
-  - M
-  - C
-  - V
-  - K
-  - L
-  - ','
-  - .
-  - /
-  - LWIN
-  - {t: ESC, h: MEDIA}
-  - NUM
-  - SPACE
-  - ENTER
-  - SYM
-  - NAV
+  BASE: [TAB, Q, D, R, W, B, J, F, U, P, ;, BSPC, LSHIFT, A, S, H, T, G, Y, N, E, O, I, '''', LCTRL, Z, X, M, C, V, K, L, ',', ., /, ESC, LEFT WIN, SYM, SPACE, ENTER,
+    NAV, LEFT ALT]
   NAV:
-  - {t: ▽, type: trans}
+  - {t: NUM, h: toggle}
   - PG UP
   - UP
   - PG DN
@@ -56,7 +15,7 @@ layers:
   - Ctl+V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: MEDIA, h: toggle}
   - LEFT
   - DOWN
   - RIGHT
@@ -84,8 +43,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - RET
-  - {t: ▽, type: trans}
-  - {t: DEL, type: held}
+  - {type: held}
+  - DEL
   SYM:
   - {t: MOUSE, h: toggle}
   - '!'
@@ -111,7 +70,7 @@ layers:
   - ']'
   - ':'
   - '"'
-  - {t: BASE, h: toggle}
+  - {t: ▽, type: trans}
   - <
   - '>'
   - (
@@ -124,13 +83,13 @@ layers:
   - '?'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  NUM:
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  NUM:
+  - {t: NUM, h: toggle}
   - F1
   - F2
   - F3
@@ -167,7 +126,7 @@ layers:
   - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - RET
   - '0'
@@ -228,7 +187,7 @@ layers:
   - VOL UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: MEDIA, h: toggle}
   - OUT USB
   - OUT BLE
   - {t: ▽, type: trans}
@@ -252,7 +211,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&bootloader'
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -271,7 +230,7 @@ layers:
   - O
   - P
   - BSPC
-  - LSHIFT
+  - {t: QWERTY, h: toggle}
   - A
   - S
   - D
