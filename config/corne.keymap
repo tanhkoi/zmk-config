@@ -14,27 +14,6 @@
 
 &led_strip { chain-length = <27>; };
 
-/* ── Timing constants ─────────────────────────────────────── */
-
-#define TAPPING_TERM   200
-#define QUICK_TAP      150
-#define MOUSE_DELAY    0
-#define MOUSE_TIME     40
-
-/* ── Layer aliases ───────────────────────────────────────── */
-
-#define BASE   0
-#define NAV    1
-#define SYM    2
-#define NUM    3
-#define MOUSE  4
-#define MEDIA  5
-
-/* ── Mouse speed tuning ───────────────────────────────────── */
-
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 800  /* cursor move speed (units/s) */
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 80   /* scroll speed                */
-
 / {
     /*
      * ── Behavior definitions ──────────────────────────────
