@@ -1,52 +1,9 @@
 layout: {zmk_keyboard: corne}
 layers:
-  BASE: [TAB, Q, D, R, W, B, J, F, U, P, ;, BSPC, LSHIFT, A, S, H, T, G, Y, N, E, O, I, '''', LCTRL, Z, X, M, C, V, K, L, ',', ., /, ESC, LEFT WIN, SYM, SPACE, ENTER,
-    NAV, LEFT ALT]
-  NAV:
-  - {t: NUM, h: toggle}
-  - PG UP
-  - UP
-  - PG DN
-  - HOME
-  - END
-  - Ctl+LEFT
-  - Ctl+RIGHT
-  - Ctl+C
-  - Ctl+V
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: MEDIA, h: toggle}
-  - LEFT
-  - DOWN
-  - RIGHT
-  - Ctl+LEFT
-  - Ctl+RIGHT
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Ctl+Z
-  - Ctl+X
-  - Ctl+C
-  - Ctl+V
-  - Ctl+Y
-  - Ctl+Z
-  - Ctl+X
-  - Ctl+C
-  - Ctl+V
-  - Ctl+Y
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - RET
-  - {type: held}
-  - DEL
-  SYM:
-  - {t: MOUSE, h: toggle}
+  BASE: [TAB, Q, D, R, W, B, J, F, U, P, ;, BSPC, LSHIFT, A, S, H, T, G, Y, N, E, O, I, '''', LCTRL, Z, X, M, C, V, K, L, ',', ., /, ESC, LEFT WIN, NUM, SPACE, ENTER,
+    SYMBOL, LEFT ALT]
+  SYMBOL:
+  - '`'
   - '!'
   - '@'
   - '#'
@@ -57,39 +14,39 @@ layers:
   - '*'
   - (
   - )
-  - '|'
-  - {t: QWERTY, h: toggle}
-  - '`'
-  - '~'
+  - DELETE
+  - {t: ▽, type: trans}
+  - _
+  - +
   - '{'
   - '}'
-  - \
+  - '|'
+  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - DOWN ARROW
+  - UP ARROW
+  - RIGHT ARROW
+  - PRINTSCREEN
+  - {t: ▽, type: trans}
   - '-'
   - '='
   - '['
   - ']'
-  - ':'
-  - '"'
+  - \
   - {t: ▽, type: trans}
-  - <
-  - '>'
-  - (
-  - )
-  - _
-  - +
-  - '-'
-  - /
-  - '*'
-  - '?'
+  - HOME
+  - PAGE DOWN
+  - PAGE UP
+  - END
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   NUM:
-  - {t: NUM, h: toggle}
+  - {t: ▽, type: trans}
   - F1
   - F2
   - F3
@@ -118,7 +75,7 @@ layers:
   - F12
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: MEDIA, h: toggle}
   - '1'
   - '2'
   - '3'
@@ -126,54 +83,11 @@ layers:
   - /
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - RET
   - '0'
   - .
-  MOUSE:
-  - {t: MOUSE, h: toggle}
-  - {t: ▽, type: trans}
-  - '&msc SCRL_UP'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mmv MOVE_UP'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&msc SCRL_LEFT'
-  - '&msc SCRL_DOWN'
-  - '&msc SCRL_RIGHT'
-  - '&mkp MB3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_RIGHT'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB4'
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB5'
-  - {t: ▽, type: trans}
   MEDIA:
   - '&sys_reset'
   - {t: BT, h: '0'}
@@ -181,35 +95,35 @@ layers:
   - {t: BT, h: '2'}
   - {t: BT, h: '3'}
   - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
   - VOL DN
   - MUTE
   - VOL UP
   - {t: ▽, type: trans}
+  - RGB EFF
+  - RGB HUI
   - {t: ▽, type: trans}
-  - {t: MEDIA, h: toggle}
   - OUT USB
   - OUT BLE
   - {t: ▽, type: trans}
-  - RGB BRD
-  - RGB BRI
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - PREV
   - PP
   - NEXT
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RGB BRI
+  - RGB HUD
   - '&bootloader'
   - BT CLR
   - {t: ▽, type: trans}
-  - RGB HUD
-  - RGB HUI
-  - RGB EFF
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: MEDIA, h: toggle}
   - BRI DN
   - BRI UP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - RGB BRD
   - '&bootloader'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -217,49 +131,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  QWERTY:
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - BSPC
-  - {t: QWERTY, h: toggle}
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - ;
-  - ''''
-  - LCTRL
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - ','
-  - .
-  - /
-  - LWIN
-  - {t: ESC, h: MEDIA}
-  - NUM
-  - SPACE
-  - ENTER
-  - SYM
-  - {t: QWERTY, h: toggle}
 combos:
 - p: [16, 19]
   k: '&caps_word'
