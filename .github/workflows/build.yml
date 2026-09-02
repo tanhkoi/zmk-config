@@ -3,11 +3,14 @@ on:
   workflow_dispatch:  # can be triggered manually
   push:               # automatically run on changes to following paths
     paths:
+      - "build.yaml"
       - "config/*.conf"
       - "config/*.keymap"
       - "config/*.yml"
       - "snippets/rgb-config/*.conf"
       - "snippets/rgb-config/*.yml"
+      - "snippets/dongle-config/*.conf"
+      - "snippets/dongle-config/*.yml"
 
 jobs:
   build:
