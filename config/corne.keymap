@@ -74,6 +74,17 @@
             label = "BASE";
         };
 
+//         base_layer {
+//             bindings = <
+// &kp TAB     &kp Q  &kp D  &kp R         &kp W  &kp B        &kp J      &kp F  &kp U         &kp P    &kp SEMICOLON  &kp BSPC
+// &kp LSHIFT  &kp A  &kp S  &kp H         &kp T  &kp G        &kp Y      &kp N  &kp E         &kp O    &kp I          &kp SQT
+// &kp LCTRL   &kp Z  &kp X  &kp M         &kp C  &kp V        &kp K      &kp L  &kp COMMA     &kp DOT  &kp FSLH       &kp ESC
+//                           &kp LEFT_WIN  &mo 2  &kp SPACE    &kp ENTER  &mo 1  &kp LEFT_ALT
+//             >;
+
+//             label = "BASE";
+//         };
+
         symbol_layer {
             bindings = <
 &kp GRAVE  &kp EXCL        &kp AT     &kp HASH          &kp DLLR           &kp PRCNT               &kp CARET  &kp AMPS        &kp STAR        &kp LPAR      &kp RPAR         &kp DELETE
