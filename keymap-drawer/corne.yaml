@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: corne}
 layers:
-  BASE: [TAB, Q, D, R, W, B, J, F, U, P, ;, BSPC, LSHIFT, A, S, H, T, G, Y, N, E, O, I, '''', LCTRL, Z, X, M, C, V, K, L, ',', ., /, ESC, LEFT WIN, NUM, SPACE, ENTER,
+  BASE: [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LSHIFT, A, S, D, F, G, H, J, K, L, ;, '''', LCTRL, Z, X, C, V, B, N, M, ',', ., /, ESC, LEFT WIN, NUM, SPACE, ENTER,
     SYMBOL, LEFT ALT]
   SYMBOL:
   - '`'
